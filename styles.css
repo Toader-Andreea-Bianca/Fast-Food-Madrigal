@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.menu-item {
+  border-bottom: 1px solid #444;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item h2 {
+  color: orange;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-item p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.menu-item .price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .menu-item {
+    width: 100%;
+  }
+}
